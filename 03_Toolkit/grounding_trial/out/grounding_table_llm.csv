@@ -1,0 +1,10 @@
+candidate_id,candidate,proposed_parent,grounded_parent,expected_parent,definitions,supporting_reports,status,failed_checks
+C1,Landing or takeoff on an unintended surface,RI,RI,RI,IND-03 IND-04,SAMPLE-001 SAMPLE-002 SAMPLE-003 SAMPLE-004 SAMPLE-005,grounded,
+C2,Runway entry or crossing without clearance,RI,RI,RI,IND-04 IND-01 IND-02,SAMPLE-009 SAMPLE-007 SAMPLE-006 SAMPLE-008,grounded,
+C3,Overrun after a long or fast landing on a wet or contaminated runway,RE,RE,RE,IND-07 IND-06,SAMPLE-010 SAMPLE-013 SAMPLE-011,grounded,
+C4,Upset or stall after unreliable airspeed,LOC-I,LOC-I,LOC-I,IND-09 IND-08,SAMPLE-015 SAMPLE-018 SAMPLE-017,grounded,
+C5,TCAS resolution advisory after an altitude deviation,MAC,MAC,MAC,IND-11 IND-10,SAMPLE-021 SAMPLE-019 SAMPLE-020,grounded,
+C6,Clear-air turbulence with cabin injuries,TURB,TURB,TURB,IND-13 IND-14,SAMPLE-025 SAMPLE-026 SAMPLE-023 SAMPLE-024,needs_review,G7
+C7,Engine damage or shutdown after bird ingestion,SCF-PP,SCF-PP,SCF-PP,IND-16,SAMPLE-031 SAMPLE-028 SAMPLE-029,grounded,
+C8,Takeoff after de-icing holdover time exceeded,ICE,ICE,ICE,IND-17,SAMPLE-032,not_grounded,G5
+C9,Hard landing or tail strike,RE,ARC,ARC,IND-18,SAMPLE-034 SAMPLE-036 SAMPLE-035,needs_review,G8

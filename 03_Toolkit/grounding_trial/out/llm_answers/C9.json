@@ -1,0 +1,22 @@
+{
+ "candidate_id": "C9",
+ "parent_code": "ARC",
+ "definition_ids": [
+  "IND-18"
+ ],
+ "supporting_reports": [
+  {
+   "report_key": "SAMPLE-034",
+   "evidence": "A late flare in gusty winds led to a hard landing and a tail strike."
+  },
+  {
+   "report_key": "SAMPLE-036",
+   "evidence": "A bounced landing was followed by a hard second touchdown that damaged the nose landing gear."
+  },
+  {
+   "report_key": "SAMPLE-035",
+   "evidence": "An incorrect takeoff weight in the flight management computer led to early rotation and a tail strike on takeoff."
+  }
+ ],
+ "concerns": "The proposed parent RE does not fit: hard landings, bounced landings and tail strikes are abnormal runway contact (ARC), not excursions."
+}

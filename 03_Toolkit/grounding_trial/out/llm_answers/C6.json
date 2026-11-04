@@ -1,0 +1,27 @@
+{
+ "candidate_id": "C6",
+ "parent_code": "TURB",
+ "definition_ids": [
+  "IND-13",
+  "IND-14"
+ ],
+ "supporting_reports": [
+  {
+   "report_key": "SAMPLE-025",
+   "evidence": "Moderate to severe clear-air turbulence over the mountains caught the cabin with carts not secured, and a flight attendant was struck by a cart."
+  },
+  {
+   "report_key": "SAMPLE-026",
+   "evidence": "Three passengers who were not wearing seat belts were injured."
+  },
+  {
+   "report_key": "SAMPLE-023",
+   "evidence": "Two flight attendants in the aft galley were injured."
+  },
+  {
+   "report_key": "SAMPLE-024",
+   "evidence": "A passenger standing in the aisle broke an ankle."
+  }
+ ],
+ "concerns": "All supporting reports are also coded CABIN. Keep TURB as the parent for the SEWG decomposition and CABIN as a co-code; SME to confirm."
+}

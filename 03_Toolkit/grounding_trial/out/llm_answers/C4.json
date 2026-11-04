@@ -1,0 +1,23 @@
+{
+ "candidate_id": "C4",
+ "parent_code": "LOC-I",
+ "definition_ids": [
+  "IND-09",
+  "IND-08"
+ ],
+ "supporting_reports": [
+  {
+   "report_key": "SAMPLE-015",
+   "evidence": "The autopilot disconnected and the aircraft reached a stall warning before the crew recovered."
+  },
+  {
+   "report_key": "SAMPLE-018",
+   "evidence": "The stick shaker activated and the aircraft descended 3,000 feet during the upset before control was regained."
+  },
+  {
+   "report_key": "SAMPLE-017",
+   "evidence": "The crew pitched down in response, reached an overspeed and lost significant altitude before recovering."
+  }
+ ],
+ "concerns": "SAMPLE-016 shows unreliable airspeed with no upset; it fits SCF-NP rather than this LOC-I category."
+}

@@ -1,0 +1,23 @@
+{
+ "candidate_id": "C3",
+ "parent_code": "RE",
+ "definition_ids": [
+  "IND-07",
+  "IND-06"
+ ],
+ "supporting_reports": [
+  {
+   "report_key": "SAMPLE-010",
+   "evidence": "Braking action was poor and the aircraft overran the runway end by 60 metres into the runway end safety area."
+  },
+  {
+   "report_key": "SAMPLE-013",
+   "evidence": "With one thrust reverser unavailable, a long landing on a contaminated runway ended in a low-speed overrun past the runway end."
+  },
+  {
+   "report_key": "SAMPLE-011",
+   "evidence": "After an unstabilized, fast approach the aircraft touched down 2,500 feet beyond the threshold on a runway reported with standing water and came to a stop in the overrun area."
+  }
+ ],
+ "concerns": "SAMPLE-012 overran on a contaminated runway, but the report does not say the landing was long or fast. SME to decide whether the category should cover all contaminated-runway overruns."
+}

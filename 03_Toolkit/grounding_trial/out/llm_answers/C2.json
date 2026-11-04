@@ -1,0 +1,28 @@
+{
+ "candidate_id": "C2",
+ "parent_code": "RI",
+ "definition_ids": [
+  "IND-04",
+  "IND-01",
+  "IND-02"
+ ],
+ "supporting_reports": [
+  {
+   "report_key": "SAMPLE-009",
+   "evidence": "The stop bar lights were on, but the crew continued past the holding point onto the runway after mistaking a frequency change for a crossing clearance."
+  },
+  {
+   "report_key": "SAMPLE-007",
+   "evidence": "A readback error led the crew to hear cross Runway 9 instead of hold short of Runway 9, and the aircraft entered the active runway without a clearance."
+  },
+  {
+   "report_key": "SAMPLE-006",
+   "evidence": "Taxiing to Runway 16, the crew crossed the hold-short line for Runway 22 without a clearance while another aircraft was on its takeoff roll."
+  },
+  {
+   "report_key": "SAMPLE-008",
+   "evidence": "A snow removal vehicle entered the active runway without a clearance during clearing operations."
+  }
+ ],
+ "concerns": ""
+}

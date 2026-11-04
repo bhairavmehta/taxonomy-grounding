@@ -1,0 +1,22 @@
+{
+ "candidate_id": "C7",
+ "parent_code": "SCF-PP",
+ "definition_ids": [
+  "IND-16"
+ ],
+ "supporting_reports": [
+  {
+   "report_key": "SAMPLE-031",
+   "evidence": "After ingesting a large bird at 3,000 feet the crew received an engine fire warning, shut the engine down and discharged the fire extinguisher."
+  },
+  {
+   "report_key": "SAMPLE-028",
+   "evidence": "The engine vibrated and lost thrust, and the crew shut it down and returned."
+  },
+  {
+   "report_key": "SAMPLE-029",
+   "evidence": "Multiple bird strikes during the takeoff roll caused the right engine to surge, and the crew rejected the takeoff."
+  }
+ ],
+ "concerns": "All supporting reports are co-coded BIRD. SAMPLE-030 is a bird strike without engine effects and is excluded."
+}

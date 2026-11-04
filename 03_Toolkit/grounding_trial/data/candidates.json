@@ -1,0 +1,116 @@
+{
+ "_note": "Candidate sub-categories as proposed by the discovery stage (US 311617 stage 3), illustrative. proposed_parent is what discovery suggested; expected_parent is the SME answer, used only to score the trial. C8 has too little support on purpose; C9 was proposed under the wrong parent on purpose. expected_reports is the hand-labelled answer key used only to score the trial (precision and recall of report links).",
+ "candidates": [
+  {
+   "candidate_id": "C1",
+   "proposed_parent": "RI",
+   "expected_parent": "RI",
+   "name": "Landing or takeoff on an unintended surface",
+   "definition": "The aircraft lands, lines up to land, or starts a takeoff on a surface other than the assigned runway: a taxiway, a closed or wrong runway, or the wrong airport.",
+   "expected_reports": [
+    "SAMPLE-001",
+    "SAMPLE-002",
+    "SAMPLE-003",
+    "SAMPLE-004",
+    "SAMPLE-005"
+   ]
+  },
+  {
+   "candidate_id": "C2",
+   "proposed_parent": "RI",
+   "expected_parent": "RI",
+   "name": "Runway entry or crossing without clearance",
+   "definition": "An aircraft or vehicle crosses a hold-short line, stop bar or holding point and enters an active runway without a clearance.",
+   "expected_reports": [
+    "SAMPLE-006",
+    "SAMPLE-007",
+    "SAMPLE-008",
+    "SAMPLE-009"
+   ]
+  },
+  {
+   "candidate_id": "C3",
+   "proposed_parent": "RE",
+   "expected_parent": "RE",
+   "name": "Overrun after a long or fast landing on a wet or contaminated runway",
+   "definition": "The aircraft touches down long or fast on a wet or contaminated runway, braking is poor, and it overruns the runway end.",
+   "expected_reports": [
+    "SAMPLE-010",
+    "SAMPLE-011",
+    "SAMPLE-012",
+    "SAMPLE-013"
+   ]
+  },
+  {
+   "candidate_id": "C4",
+   "proposed_parent": "LOC-I",
+   "expected_parent": "LOC-I",
+   "name": "Upset or stall after unreliable airspeed",
+   "definition": "Disagreeing or erroneous airspeed indications, for example from icing or pitot failure, lead to a stall warning, overspeed or upset in flight.",
+   "expected_reports": [
+    "SAMPLE-015",
+    "SAMPLE-017",
+    "SAMPLE-018"
+   ]
+  },
+  {
+   "candidate_id": "C5",
+   "proposed_parent": "MAC",
+   "expected_parent": "MAC",
+   "name": "TCAS resolution advisory after an altitude deviation",
+   "definition": "The aircraft deviates from its cleared altitude (level bust) and traffic receives a TCAS resolution advisory or separation is lost.",
+   "expected_reports": [
+    "SAMPLE-019",
+    "SAMPLE-020",
+    "SAMPLE-021"
+   ]
+  },
+  {
+   "candidate_id": "C6",
+   "proposed_parent": "TURB",
+   "expected_parent": "TURB",
+   "name": "Clear-air turbulence with cabin injuries",
+   "definition": "An unexpected encounter with turbulence in clear air injures passengers or cabin crew who are standing, unbelted or near unsecured carts.",
+   "expected_reports": [
+    "SAMPLE-023",
+    "SAMPLE-024",
+    "SAMPLE-025",
+    "SAMPLE-026"
+   ]
+  },
+  {
+   "candidate_id": "C7",
+   "proposed_parent": "SCF-PP",
+   "expected_parent": "SCF-PP",
+   "name": "Engine damage or shutdown after bird ingestion",
+   "definition": "Birds ingested into an engine cause vibration, surge, loss of thrust, fire warning or shutdown.",
+   "expected_reports": [
+    "SAMPLE-028",
+    "SAMPLE-029",
+    "SAMPLE-031"
+   ]
+  },
+  {
+   "candidate_id": "C8",
+   "proposed_parent": "ICE",
+   "expected_parent": "ICE",
+   "name": "Takeoff after de-icing holdover time exceeded",
+   "definition": "The aircraft is delayed after ground de-icing and the fluid holdover time is exceeded before takeoff.",
+   "expected_reports": [
+    "SAMPLE-032"
+   ]
+  },
+  {
+   "candidate_id": "C9",
+   "proposed_parent": "RE",
+   "expected_parent": "ARC",
+   "name": "Hard landing or tail strike",
+   "definition": "A hard or bounced touchdown, or contact of the tail with the runway during rotation or flare.",
+   "expected_reports": [
+    "SAMPLE-034",
+    "SAMPLE-035",
+    "SAMPLE-036"
+   ]
+  }
+ ]
+}

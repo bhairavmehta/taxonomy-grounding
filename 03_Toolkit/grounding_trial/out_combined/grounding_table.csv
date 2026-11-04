@@ -1,0 +1,38 @@
+candidate_id,candidate,proposed_parent,grounded_parent,expected_parent,definitions,supporting_reports,status,failed_checks
+C1,Landing or takeoff on an unintended surface,RI,RI,RI,IND-03 IND-04 IND-01,SAMPLE-005 SAMPLE-002,not_grounded,G5
+C2,Runway entry or crossing without clearance,RI,RI,RI,IND-40 IND-04 IND-19,SAMPLE-007 SAMPLE-009 SYNB-010,grounded,
+C3,Overrun after a long or fast landing on a wet or contaminated runway,RE,RE,RE,IND-07 IND-05 IND-06,SAMPLE-013 SAMPLE-011,not_grounded,G5
+C4,Upset or stall after unreliable airspeed,LOC-I,LOC-I,LOC-I,IND-09 IND-08 IND-21,SAMPLE-015 SAMPLE-018 SAMPLE-017 SYNB-196,grounded,
+C5,TCAS resolution advisory after an altitude deviation,MAC,MAC,MAC,IND-11 IND-10,SAMPLE-021 SAMPLE-019 SAMPLE-020 SAMPLE-022,grounded,
+C6,Clear-air turbulence with cabin injuries,TURB,TURB,TURB,IND-14 IND-13,SAMPLE-025 SAMPLE-023 SAMPLE-026 SAMPLE-024,needs_review,G7
+C7,Engine damage or shutdown after bird ingestion,SCF-PP,BIRD,SCF-PP,IND-16 IND-39 IND-15,SAMPLE-031,not_grounded,G5 G7 G8
+C8,Takeoff after de-icing holdover time exceeded,ICE,ICE,ICE,IND-17 IND-29,SAMPLE-032 SYNB-230 SYNB-250 SYNB-270,grounded,
+C9,Hard landing or tail strike,RE,ARC,ARC,IND-18 IND-35,SAMPLE-034 SAMPLE-036 SYNB-170 SYNB-240 SYNB-260 SYNB-220,needs_review,G8
+B01,Vehicle or pedestrian on the runway without clearance,RI,RI,RI,IND-19 IND-40 IND-02,SAMPLE-008,not_grounded,G5
+B02,Landing on a taxiway or the wrong runway at night,RI,RI,RI,IND-03 IND-04,SAMPLE-001 SAMPLE-004 SYNB-012 SYNB-015 SYNB-017 SYNB-016 SAMPLE-003 SYNB-011 SYNB-013,grounded,
+B03,Veer-off during landing in a strong or gusty crosswind,RE,RE,RE,IND-20 IND-05 IND-07,SAMPLE-014 SYNB-026 SYNB-025 SYNB-028 SYNB-022 SYNB-021,grounded,
+B04,Overrun on a contaminated runway,RE,RE,RE,IND-05 IND-06 IND-07,SAMPLE-010 SAMPLE-012 SYNB-036 SYNB-033 SYNB-035 SYNB-029,grounded,
+B05,Stall warning or upset during a go-around,LOC-I,LOC-I,LOC-I,IND-21 IND-08 IND-09,SYNB-037 SYNB-040 SYNB-042 SYNB-039,needs_review,G6
+B06,Wake turbulence upset on approach,TURB,TURB,TURB,IND-22,SAMPLE-027 SYNB-045 SYNB-050 SYNB-046 SYNB-052 SYNB-051 SYNB-047 SYNB-048,grounded,
+B07,Loss of separation caused by an ATC clearance,MAC,MAC,MAC,IND-23 IND-12 IND-11,SYNB-060 SYNB-059 SYNB-056 SYNB-058,grounded,
+B08,TCAS resolution advisory after a level bust,MAC,MAC,MAC,IND-11 IND-10,SYNB-061 SYNB-066 SYNB-062 SYNB-064 SYNB-067 SYNB-065 SYNB-063 SYNB-068,grounded,
+B09,Hydraulic system failure in flight,SCF-NP,SCF-NP,SCF-NP,IND-24 IND-25,SYNB-074 SYNB-071 SYNB-076 SYNB-073 SYNB-075 SYNB-072 SYNB-078 SYNB-070 SYNB-069 SYNB-077,grounded,
+B10,Landing gear did not extend,SCF-NP,SCF-NP,SCF-NP,IND-25 IND-24,SYNB-083 SYNB-085 SYNB-079 SYNB-081 SYNB-080 SYNB-084 SYNB-086 SYNB-082,grounded,
+B11,Terrain warning on a non-precision approach,CFIT,CFIT,CFIT,IND-26,SAMPLE-033 SYNB-089 SYNB-091 SYNB-093 SYNB-087 SYNB-092 SYNB-088 SYNB-090 SYNB-094,grounded,
+B12,GNSS interference or spoofing,NAV,NAV,NAV,IND-27,SYNB-095 SYNB-101 SYNB-100 SYNB-098 SYNB-102 SYNB-096,grounded,
+B13,Engine shutdown after loss of oil pressure,SCF-NP,SCF-PP,SCF-PP,IND-28 IND-16,SYNB-104 SYNB-103 SYNB-108 SYNB-105 SYNB-106 SYNB-107 SAMPLE-031 SAMPLE-028 SYNB-117 SYNB-116 SYNB-113,needs_review,G8
+B14,Takeoff with frost or ice not removed,ICE,ICE,ICE,IND-29 IND-17 IND-38,SYNB-109 SYNB-110 SAMPLE-018,grounded,
+B15,Bird ingestion damaging an engine on takeoff or climb,BIRD,BIRD,BIRD,IND-16 IND-39 IND-15,SAMPLE-029 SAMPLE-028 SYNB-113 SYNB-117 SYNB-111 SYNB-114 SYNB-115 SYNB-116 SYNB-118 SYNB-112,needs_review,G7
+B16,Bird strike damaging the windshield or nose on approach,BIRD,BIRD,BIRD,IND-39 IND-15 IND-16,SAMPLE-030 SYNB-214 SYNB-254 SYNB-121 SYNB-120 SYNB-126 SYNB-123 SYNB-125 SYNB-124 SYNB-119 SYNB-234,grounded,
+B17,Lithium battery fire from a passenger device,F-NI,CABIN,F-NI,IND-31,SYNB-127 SYNB-129 SYNB-131 SYNB-130 SYNB-128 SYNB-133 SYNB-134 SYNB-132,needs_review,G8
+B18,Electrical smoke or burning smell in the flight deck,F-NI,F-NI,F-NI,IND-32,SYNB-137 SYNB-138 SYNB-141 SYNB-139 SYNB-142 SYNB-135 SYNB-136 SYNB-140,grounded,
+B19,Low fuel after holding or a diversion,FUEL,FUEL,FUEL,IND-33,SYNB-150 SYNB-146 SYNB-145 SYNB-149 SYNB-144 SYNB-148 SYNB-143 SYNB-147,grounded,
+B20,Pushback or towing collision,RAMP,RAMP,RAMP,IND-34,SYNB-151 SYNB-153 SYNB-156 SYNB-158 SYNB-152 SYNB-155 SYNB-154 SYNB-157,grounded,
+B21,Disruptive or unruly passenger,CABIN,CABIN,CABIN,IND-30,SYNB-160 SYNB-159 SYNB-163 SYNB-161 SYNB-166 SYNB-164 SYNB-165 SYNB-162,grounded,
+B22,Tail strike on takeoff,ARC,ARC,ARC,IND-35 IND-18,SAMPLE-035 SYNB-173 SYNB-174 SYNB-167 SYNB-172 SYNB-168 SYNB-169,grounded,
+B23,Windshear on final approach,TURB,WSTRW,WSTRW,IND-36,SYNB-179 SYNB-178 SYNB-180 SYNB-182 SYNB-176 SYNB-181 SYNB-175 SYNB-252 SYNB-232 SYNB-272,needs_review,G8
+B24,Landing short of the runway,USOS,USOS,USOS,IND-37,SYNB-184 SYNB-187 SYNB-183 SYNB-186 SYNB-185 SYNB-188,needs_review,G6
+B25,Airframe icing in flight,ICE,ICE,ICE,IND-38 IND-17 IND-29,SYNB-194 SYNB-190 SYNB-193 SYNB-189 SYNB-191 SYNB-192 SAMPLE-015,grounded,
+B26,Unreliable airspeed from blocked pitot probes,SCF-NP,SCF-NP,SCF-NP,IND-09,SYNB-201 SAMPLE-017 SAMPLE-016 SYNB-200 SYNB-199 SYNB-198,needs_review,G6 G7
+B27,Crew crossed a hold-short line without clearance,RI,RI,RI,IND-40 IND-02 IND-19,SAMPLE-006 SYNB-204 SYNB-206 SYNB-205 SYNB-210 SYNB-209 SYNB-203 SYNB-207 SYNB-208,grounded,
+B28,Wrong route or waypoint loaded in the FMS,NAV,NAV,NAV,IND-41,SYNB-212 SYNB-211,not_grounded,G5 G6

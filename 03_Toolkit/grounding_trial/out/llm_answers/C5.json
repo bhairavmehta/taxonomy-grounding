@@ -1,0 +1,23 @@
+{
+ "candidate_id": "C5",
+ "parent_code": "MAC",
+ "definition_ids": [
+  "IND-11",
+  "IND-10"
+ ],
+ "supporting_reports": [
+  {
+   "report_key": "SAMPLE-021",
+   "evidence": "The resulting level bust triggered a TCAS climb resolution advisory and separation was lost."
+  },
+  {
+   "report_key": "SAMPLE-019",
+   "evidence": "The climbing aircraft overshot its cleared altitude of FL240 by 400 feet, and opposite-direction traffic received a TCAS resolution advisory to descend."
+  },
+  {
+   "report_key": "SAMPLE-020",
+   "evidence": "Autopilot mode confusion caused an altitude deviation, and the crew received a TCAS resolution advisory for traffic 600 feet below."
+  }
+ ],
+ "concerns": "SAMPLE-022 is a TCAS resolution advisory caused by an ATC clearance, not an altitude deviation. Consider a sibling category under MAC for ATC-induced conflicts."
+}

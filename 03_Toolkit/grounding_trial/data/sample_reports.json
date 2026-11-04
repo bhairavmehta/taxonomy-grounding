@@ -1,0 +1,381 @@
+{
+ "_note": "SYNTHETIC sample reports written for the grounding trial. Not real events. l1_codes are the stage-2 multi-label CICTT assignments; source_codes imitate ASRS-style anomaly codes. Re-run the trial on real NTSB/ASRS extracts and Boeing reports in the approved environment.",
+ "reports": [
+  {
+   "report_key": "SAMPLE-001",
+   "source_id": "SAMPLE",
+   "phase": "Approach",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "Ground Incursion: Taxiway; Deviation: Track or Heading",
+   "narrative": "During a night visual approach to Runway 27R the crew lined up on the parallel taxiway, mistaking the taxiway edge lights for runway lights. Tower issued a go-around at about 200 feet above ground. No aircraft were on the taxiway."
+  },
+  {
+   "report_key": "SAMPLE-002",
+   "source_id": "SAMPLE",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "Ground Incursion: Runway",
+   "narrative": "Cleared for takeoff on Runway 4L, the crew taxied onto Runway 4R, which was closed for construction. The takeoff roll began before the first officer noticed the closure markings, and the takeoff was rejected at 40 knots."
+  },
+  {
+   "report_key": "SAMPLE-003",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "Ground Incursion: Runway; Deviation: Clearance",
+   "narrative": "After a late runway change the crew did not rebrief the approach and landed on Runway 35L instead of the assigned Runway 35R."
+  },
+  {
+   "report_key": "SAMPLE-004",
+   "source_id": "SAMPLE",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "Ground Incursion: Taxiway",
+   "narrative": "In low visibility the crew began a takeoff from taxiway Bravo, believing it was the runway. The takeoff was abandoned when they saw the blue taxiway edge lights."
+  },
+  {
+   "report_key": "SAMPLE-005",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "RI",
+    "NAV"
+   ],
+   "source_codes": "Deviation: Track or Heading; Other: Wrong Airport",
+   "narrative": "The crew landed at a nearby general aviation airport with a similar runway alignment instead of the destination airport. The error was found after landing."
+  },
+  {
+   "report_key": "SAMPLE-006",
+   "source_id": "SAMPLE",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI",
+    "ATM"
+   ],
+   "source_codes": "Ground Incursion: Runway",
+   "narrative": "Taxiing to Runway 16, the crew crossed the hold-short line for Runway 22 without a clearance while another aircraft was on its takeoff roll. ATC cancelled the takeoff clearance."
+  },
+  {
+   "report_key": "SAMPLE-007",
+   "source_id": "SAMPLE",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "Ground Incursion: Runway; Deviation: Clearance",
+   "narrative": "A readback error led the crew to hear cross Runway 9 instead of hold short of Runway 9, and the aircraft entered the active runway without a clearance."
+  },
+  {
+   "report_key": "SAMPLE-008",
+   "source_id": "SAMPLE",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "Ground Incursion: Runway",
+   "narrative": "A snow removal vehicle entered the active runway without a clearance during clearing operations. Landing traffic was sent around."
+  },
+  {
+   "report_key": "SAMPLE-009",
+   "source_id": "SAMPLE",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "Ground Incursion: Runway",
+   "narrative": "The stop bar lights were on, but the crew continued past the holding point onto the runway after mistaking a frequency change for a crossing clearance."
+  },
+  {
+   "report_key": "SAMPLE-010",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "Ground Excursion: Runway",
+   "narrative": "The aircraft landed long on a wet runway with a tailwind. Braking action was poor and the aircraft overran the runway end by 60 metres into the runway end safety area."
+  },
+  {
+   "report_key": "SAMPLE-011",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "Ground Excursion: Runway; Inflight Event: Unstabilized Approach",
+   "narrative": "After an unstabilized, fast approach the aircraft touched down 2,500 feet beyond the threshold on a runway reported with standing water and came to a stop in the overrun area."
+  },
+  {
+   "report_key": "SAMPLE-012",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE",
+    "ICE"
+   ],
+   "source_codes": "Ground Excursion: Runway",
+   "narrative": "The runway condition code was reported as 2 after freezing rain. The crew did not recompute the landing distance and the aircraft overran onto the grass beyond the runway end."
+  },
+  {
+   "report_key": "SAMPLE-013",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE",
+    "SCF-PP"
+   ],
+   "source_codes": "Ground Excursion: Runway; Equipment Problem",
+   "narrative": "With one thrust reverser unavailable, a long landing on a contaminated runway ended in a low-speed overrun past the runway end."
+  },
+  {
+   "report_key": "SAMPLE-014",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "Ground Excursion: Runway",
+   "narrative": "In a strong, gusty crosswind the aircraft veered off the left side of the runway during the landing roll."
+  },
+  {
+   "report_key": "SAMPLE-015",
+   "source_id": "SAMPLE",
+   "phase": "Climb",
+   "l1_codes": [
+    "LOC-I",
+    "ICE"
+   ],
+   "source_codes": "Inflight Event: Loss of Aircraft Control; Equipment Problem",
+   "narrative": "Climbing through FL280 in icing conditions, the captain and first officer airspeed indications disagreed. The autopilot disconnected and the aircraft reached a stall warning before the crew recovered."
+  },
+  {
+   "report_key": "SAMPLE-016",
+   "source_id": "SAMPLE",
+   "phase": "Climb",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "Equipment Problem: Air Data",
+   "narrative": "After takeoff an airspeed disagree alert appeared. The crew used the unreliable airspeed checklist, flew pitch and power, and returned to the departure airport without further problems."
+  },
+  {
+   "report_key": "SAMPLE-017",
+   "source_id": "SAMPLE",
+   "phase": "Cruise",
+   "l1_codes": [
+    "LOC-I",
+    "SCF-NP"
+   ],
+   "source_codes": "Inflight Event: Loss of Aircraft Control; Equipment Problem",
+   "narrative": "A pitot heat failure at cruise produced a falling airspeed indication. The crew pitched down in response, reached an overspeed and lost significant altitude before recovering."
+  },
+  {
+   "report_key": "SAMPLE-018",
+   "source_id": "SAMPLE",
+   "phase": "Cruise",
+   "l1_codes": [
+    "LOC-I",
+    "ICE"
+   ],
+   "source_codes": "Inflight Event: Loss of Aircraft Control",
+   "narrative": "Ice crystals caused unreliable airspeed indications. The stick shaker activated and the aircraft descended 3,000 feet during the upset before control was regained."
+  },
+  {
+   "report_key": "SAMPLE-019",
+   "source_id": "SAMPLE",
+   "phase": "Climb",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "Deviation: Altitude; Conflict: Airborne Conflict",
+   "narrative": "The climbing aircraft overshot its cleared altitude of FL240 by 400 feet, and opposite-direction traffic received a TCAS resolution advisory to descend."
+  },
+  {
+   "report_key": "SAMPLE-020",
+   "source_id": "SAMPLE",
+   "phase": "Cruise",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "Deviation: Altitude; Conflict: Airborne Conflict",
+   "narrative": "Autopilot mode confusion caused an altitude deviation, and the crew received a TCAS resolution advisory for traffic 600 feet below."
+  },
+  {
+   "report_key": "SAMPLE-021",
+   "source_id": "SAMPLE",
+   "phase": "Climb",
+   "l1_codes": [
+    "MAC",
+    "ATM"
+   ],
+   "source_codes": "Deviation: Altitude; Conflict: Airborne Conflict",
+   "narrative": "On departure the crew set the wrong altitude in the mode control panel. The resulting level bust triggered a TCAS climb resolution advisory and separation was lost."
+  },
+  {
+   "report_key": "SAMPLE-022",
+   "source_id": "SAMPLE",
+   "phase": "Descent",
+   "l1_codes": [
+    "MAC",
+    "ATM"
+   ],
+   "source_codes": "Conflict: Airborne Conflict; ATC Issue",
+   "narrative": "The controller issued a descent clearance into conflicting traffic and both aircraft received TCAS resolution advisories."
+  },
+  {
+   "report_key": "SAMPLE-023",
+   "source_id": "SAMPLE",
+   "phase": "Cruise",
+   "l1_codes": [
+    "TURB",
+    "CABIN"
+   ],
+   "source_codes": "Inflight Event: Turbulence; Injury",
+   "narrative": "The aircraft encountered severe clear-air turbulence at FL350 with no weather shown on radar. Two flight attendants in the aft galley were injured."
+  },
+  {
+   "report_key": "SAMPLE-024",
+   "source_id": "SAMPLE",
+   "phase": "Cruise",
+   "l1_codes": [
+    "TURB",
+    "CABIN"
+   ],
+   "source_codes": "Inflight Event: Turbulence; Injury",
+   "narrative": "Unforecast turbulence near the jet stream occurred just after the seat belt sign was turned off. A passenger standing in the aisle broke an ankle."
+  },
+  {
+   "report_key": "SAMPLE-025",
+   "source_id": "SAMPLE",
+   "phase": "Cruise",
+   "l1_codes": [
+    "TURB",
+    "CABIN"
+   ],
+   "source_codes": "Inflight Event: Turbulence; Injury",
+   "narrative": "Moderate to severe clear-air turbulence over the mountains caught the cabin with carts not secured, and a flight attendant was struck by a cart."
+  },
+  {
+   "report_key": "SAMPLE-026",
+   "source_id": "SAMPLE",
+   "phase": "Cruise",
+   "l1_codes": [
+    "TURB",
+    "CABIN"
+   ],
+   "source_codes": "Inflight Event: Turbulence; Injury",
+   "narrative": "Only light chop was expected, but the aircraft met sudden severe turbulence in clear air. Three passengers who were not wearing seat belts were injured."
+  },
+  {
+   "report_key": "SAMPLE-027",
+   "source_id": "SAMPLE",
+   "phase": "Approach",
+   "l1_codes": [
+    "TURB"
+   ],
+   "source_codes": "Inflight Event: Wake Vortex Encounter",
+   "narrative": "Wake turbulence from a heavy aircraft on final approach caused a sudden 30-degree roll. The crew recovered and there were no injuries."
+  },
+  {
+   "report_key": "SAMPLE-028",
+   "source_id": "SAMPLE",
+   "phase": "Climb",
+   "l1_codes": [
+    "SCF-PP",
+    "BIRD"
+   ],
+   "source_codes": "Inflight Event: Bird Strike; Equipment Problem: Engine",
+   "narrative": "A flock of geese was ingested into the left engine at 800 feet after takeoff. The engine vibrated and lost thrust, and the crew shut it down and returned."
+  },
+  {
+   "report_key": "SAMPLE-029",
+   "source_id": "SAMPLE",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "SCF-PP",
+    "BIRD"
+   ],
+   "source_codes": "Inflight Event: Bird Strike; Equipment Problem: Engine",
+   "narrative": "Multiple bird strikes during the takeoff roll caused the right engine to surge, and the crew rejected the takeoff."
+  },
+  {
+   "report_key": "SAMPLE-030",
+   "source_id": "SAMPLE",
+   "phase": "Approach",
+   "l1_codes": [
+    "BIRD"
+   ],
+   "source_codes": "Inflight Event: Bird Strike",
+   "narrative": "A bird strike on approach was found on the post-flight inspection, with dents on the radome. There was no indication in flight."
+  },
+  {
+   "report_key": "SAMPLE-031",
+   "source_id": "SAMPLE",
+   "phase": "Climb",
+   "l1_codes": [
+    "SCF-PP",
+    "BIRD"
+   ],
+   "source_codes": "Inflight Event: Bird Strike; Equipment Problem: Engine",
+   "narrative": "After ingesting a large bird at 3,000 feet the crew received an engine fire warning, shut the engine down and discharged the fire extinguisher."
+  },
+  {
+   "report_key": "SAMPLE-032",
+   "source_id": "SAMPLE",
+   "phase": "Ground",
+   "l1_codes": [
+    "ICE"
+   ],
+   "source_codes": "Ground Event: De-icing",
+   "narrative": "The takeoff was delayed beyond the de-icing fluid holdover time, and the crew returned to the pad for a second de-icing."
+  },
+  {
+   "report_key": "SAMPLE-033",
+   "source_id": "SAMPLE",
+   "phase": "Approach",
+   "l1_codes": [
+    "CFIT"
+   ],
+   "source_codes": "Inflight Event: Terrain Warning",
+   "narrative": "During a non-precision approach at night the crew received a GPWS terrain warning, climbed and went around."
+  },
+  {
+   "report_key": "SAMPLE-034",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "Ground Event: Hard Landing",
+   "narrative": "A late flare in gusty winds led to a hard landing and a tail strike."
+  },
+  {
+   "report_key": "SAMPLE-035",
+   "source_id": "SAMPLE",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "Ground Event: Tail Strike",
+   "narrative": "An incorrect takeoff weight in the flight management computer led to early rotation and a tail strike on takeoff."
+  },
+  {
+   "report_key": "SAMPLE-036",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "Ground Event: Hard Landing",
+   "narrative": "A bounced landing was followed by a hard second touchdown that damaged the nose landing gear."
+  }
+ ]
+}

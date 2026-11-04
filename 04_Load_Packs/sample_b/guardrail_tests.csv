@@ -1,0 +1,7 @@
+test,status,failed_checks,base_candidate
+Parent not in the allowed list,not_grounded,G1 G2 G3 G5,B01
+Invented definition id,not_grounded,G2,B01
+Definition from another parent,not_grounded,G2,B01
+Paraphrased evidence,not_grounded,G4,B01
+Report from another parent,not_grounded,G3,B01
+Invented report key,not_grounded,G3,B01

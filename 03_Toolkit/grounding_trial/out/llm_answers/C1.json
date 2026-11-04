@@ -1,0 +1,31 @@
+{
+ "candidate_id": "C1",
+ "parent_code": "RI",
+ "definition_ids": [
+  "IND-03",
+  "IND-04"
+ ],
+ "supporting_reports": [
+  {
+   "report_key": "SAMPLE-001",
+   "evidence": "During a night visual approach to Runway 27R the crew lined up on the parallel taxiway, mistaking the taxiway edge lights for runway lights."
+  },
+  {
+   "report_key": "SAMPLE-002",
+   "evidence": "Cleared for takeoff on Runway 4L, the crew taxied onto Runway 4R, which was closed for construction."
+  },
+  {
+   "report_key": "SAMPLE-003",
+   "evidence": "After a late runway change the crew did not rebrief the approach and landed on Runway 35L instead of the assigned Runway 35R."
+  },
+  {
+   "report_key": "SAMPLE-004",
+   "evidence": "In low visibility the crew began a takeoff from taxiway Bravo, believing it was the runway."
+  },
+  {
+   "report_key": "SAMPLE-005",
+   "evidence": "The crew landed at a nearby general aviation airport with a similar runway alignment instead of the destination airport."
+  }
+ ],
+ "concerns": ""
+}

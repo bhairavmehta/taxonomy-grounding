@@ -1,0 +1,14 @@
+{
+ "candidate_id": "C8",
+ "parent_code": "ICE",
+ "definition_ids": [
+  "IND-17"
+ ],
+ "supporting_reports": [
+  {
+   "report_key": "SAMPLE-032",
+   "evidence": "The takeoff was delayed beyond the de-icing fluid holdover time, and the crew returned to the pad for a second de-icing."
+  }
+ ],
+ "concerns": "Only one supporting report. Not enough evidence to keep this as a separate category yet."
+}
